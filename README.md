@@ -52,25 +52,68 @@ To install *Ringflow* Python repo locally, follow these steps:
     pip install -e .
     ```
 
-## Usage
+# Responsive Login Form
 
-After installing the package, you can use the greeting function as shown below:
+## Summary
 
-```python
-from my_package import greet
+This is a simple and responsive login form built using HTML, CSS, and JavaScript. The form includes fields for email and password and a login button. It also features basic error message handling and a signup link for users who don't yet have an account. The form is designed to be responsive, meaning it will adjust to different screen sizes and devices.
 
-# Call the greet function
-message = greet("World")
-print(message)
-```
+### Features
+- **Responsive Design**: The form layout adapts to different screen sizes for a seamless experience across devices.
+- **Form Fields**: Includes fields for users to input their email and password.
+- **Login Button**: A button that triggers the login action when clicked.
+- **Error Handling**: Placeholder for error messages if the login fails (JavaScript integration can be added for dynamic error messages).
+- **Signup Link**: A link to navigate users to the signup page if they don’t have an account.
 
-This will output:
+## Files Included
 
-```
-Hello, World!
-```
+- `index.html`: The main HTML file containing the structure of the login form.
+- `styles.css`: A CSS file for styling the login form and ensuring it's responsive.
+- `script.js`: A JavaScript file that can be used to handle form validation and error messages.
 
-Feel free to explore the code, make modifications, and create your own version of the package!
+## How to Use
+
+1. Download or clone the repository.
+2. Open the `index.html` file in a web browser.
+3. Ensure that the `styles.css` and `script.js` files are linked correctly for styling and functionality.
+
+### Example
+
+Here is a basic structure of the login form in the `index.html` file:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <form id="login-form">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-group">
+                <button type="submit">Login</button>
+            </div>
+            <p id="error-message" style="color:red; text-align:center;"></p> <!-- Error message placeholder -->
+            <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
 
 ## Contributing
 
