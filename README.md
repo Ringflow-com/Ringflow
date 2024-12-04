@@ -14,7 +14,7 @@ Welcome to the official repository of *Ringflow*, a simple Python package design
 
 ## About
 
-**[Ringflow](https://www.ringflow.com/)** is committed to transforming telecom operations with advanced AI tools and solutions. We specialize in providing businesses with a range of services designed to improve communication, enhance customer engagement, and streamline telecom workflows. Our solutions include virtual numbers, bulk SMS, VOIP services, and more.
+**[Ringflow](https://www.ringflow.com/)** is committed to transforming telecom operations with advanced AI tools and solutions. We specialize in providing businesses with a range of services designed to improve communication, enhance customer engagement, and streamline telecom workflows. Our solutions include virtual numbers, VOIP services, and more.
 
 This project demonstrates how to structure a Python package, use setuptools for packaging, and publish the package to PyPI.
 
