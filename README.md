@@ -114,6 +114,8 @@ Here is a basic structure of the login form in the `index.html` file:
     <script src="script.js"></script> <!-- Link to the JavaScript file -->
 </body>
 </html>
+```
+
 
 ## Contributing
 
